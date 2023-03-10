@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1 -v -a | awk '{print $NF"/",$0}' | sed 's/^\.\//. .\//;s/\s/, /g' | tr -d '\n'; echo
