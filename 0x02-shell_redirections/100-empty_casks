@@ -1,0 +1,3 @@
+#!/bin/bash
+ind . -empty -printf "%f\n"
+
